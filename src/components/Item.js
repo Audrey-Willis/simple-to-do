@@ -4,6 +4,7 @@ import React from "react";
 import { ItemStyles } from "./Styles/ItemStyles";
 
 const Item = (props) => {
+
   return (
     <ItemStyles
       className={`item${props.item.completed ?  " completed" : ""}`}

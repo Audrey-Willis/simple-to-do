@@ -23,7 +23,7 @@ export const reducer = (state, action) => {
       return {
         todos: state.todos.map((item) => {
           if (item.id === action.payload) {
-            return { ...item, completed: !item.complete };
+            return { ...item, completed: !item.completed };
           } else {
             return item;
           }
