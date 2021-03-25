@@ -9,6 +9,9 @@ body {
 background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
 
 }
+.item.completed{
+  text-decoration:line-through;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
