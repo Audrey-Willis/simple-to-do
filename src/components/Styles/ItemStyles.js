@@ -10,4 +10,7 @@ export const ItemStyles = styled.div`
     transform:scale(1.1);
     cursor:pointer;
   }
+  @media(max-width:500px){
+    font-size:1.2rem;
+  }
 `;

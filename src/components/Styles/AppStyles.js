@@ -27,7 +27,7 @@ export const AppStyles = styled.div`
   }
   h2{
     color:black;
-    text-shadow:.4px .4px white;
+    text-shadow:.3px .3px white;
   }
  .fullToDoList h1{
     color:black;
